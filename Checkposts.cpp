@@ -120,9 +120,9 @@ int main() {
             dfs(graph, visited, list, p, i);
             cout<<"!!!!!!"<<endl;
             for (int j = 0; j < list.size(); j++) {
-//                cout<<list[j]<<endl;
+                cout<<list[j]<<endl;
                 min_price += cost[list[j]];
-//                cout<<min_price<<endl;
+                cout<<min_price<<endl;
             }
             for (int j = 0; j < p.size(); j++) {
                 variations *= p[j];
